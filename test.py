@@ -1,4 +1,6 @@
-def my_func():
-    print("a")
+num = int(input(": "))
 
-my_func()
+print("bin ==>", bin(num))
+print("dec ==>", num)
+print("oct ==>", oct(num))
+print("hex ==>", hex(num))
